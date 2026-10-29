@@ -105,8 +105,12 @@ Sur Windows :
 Sorties :
 
 - `app/build/outputs/apk/debug/app-debug.apk`
-- `app/build/outputs/apk/release/app-release.apk`
+- `app/build/outputs/apk/release/app-release.apk` (signé si `keystore.properties` est configuré)
 - `app/build/outputs/bundle/release/app-release.aab`
+
+Sans `keystore.properties`, Gradle produit `app-release-unsigned.apk` et un AAB
+non signé. Ces fichiers ne sont pas installables ou publiables en l’état : ils
+servent uniquement à vérifier la compilation release et R8.
 
 ## Signature de production
 

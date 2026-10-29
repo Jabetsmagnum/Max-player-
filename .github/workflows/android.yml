@@ -36,8 +36,8 @@ jobs:
       - name: Make Gradle wrapper executable
         run: chmod +x gradlew
 
-      - name: Build debug, lint and unit tests
-        run: ./gradlew assembleDebug lintDebug testDebugUnitTest --stacktrace
+      - name: Build debug and release, lint and unit tests
+        run: ./gradlew assembleDebug assembleRelease lintDebug testDebugUnitTest --stacktrace
 
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
