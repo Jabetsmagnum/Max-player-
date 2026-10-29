@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="lp_background">#0E0F12</color>
+    <color name="lp_brand">#FFD54A</color>
+    <color name="lp_brand_dark">#F2B705</color>
+    <color name="lp_on_brand">#16130A</color>
+    <color name="lp_surface">#17191F</color>
+    <color name="lp_surface_high">#22252D</color>
+    <color name="lp_text">#F5F6F8</color>
+    <color name="lp_text_soft">#A7ACB8</color>
+    <color name="lp_positive">#21D07A</color>
+    <color name="widget_background">#E617191F</color>
+</resources>

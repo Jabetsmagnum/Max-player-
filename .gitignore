@@ -1,0 +1,41 @@
+# Android / Gradle
+.gradle/
+.kotlin/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.iml
+.idea/
+
+# Build outputs
+*.apk
+*.aab
+*.apks
+*.aar
+output-metadata.json
+
+# Signing material
+keystore.properties
+keystore/
+*.jks
+*.keystore
+*.p12
+app/release/
+
+# Local reference material (original APK, analysis, helper tools)
+analysis/
+tools/
+LarkPlayer-*.apk
+LarkPlaye-*.apk
+
+# Logs and profiler output
+*.log
+*.hprof
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/

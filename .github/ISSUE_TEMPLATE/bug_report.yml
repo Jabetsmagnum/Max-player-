@@ -1,0 +1,54 @@
+name: Signaler un bug
+description: Décrire un comportement incorrect dans Max player
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de vérifier qu’une issue similaire n’existe pas déjà.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Que s’est-il passé ?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes de reproduction
+      placeholder: |
+        1. Ouvrir l’application
+        2. Aller dans…
+        3. Observer…
+    validations:
+      required: true
+  - type: input
+    id: expected
+    attributes:
+      label: Comportement attendu
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Appareil et version Android
+      placeholder: "Pixel 7, Android 15"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version de Max player
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs ou captures
+      description: Collez les logs pertinents ou joignez des captures.
+      render: shell
+    validations:
+      required: false

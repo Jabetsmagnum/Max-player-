@@ -1,0 +1,33 @@
+name: Proposer une fonctionnalité
+description: Suggérer une amélioration pour Max player
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Besoin ou problème
+      description: Quel usage souhaitez-vous faciliter ?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution proposée
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives envisagées
+    validations:
+      required: false
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Contraintes du projet
+      options:
+        - label: La proposition reste locale et ne nécessite aucun service réseau.
+          required: true
+        - label: La proposition n’ajoute ni publicité ni suivi analytique.
+          required: true
