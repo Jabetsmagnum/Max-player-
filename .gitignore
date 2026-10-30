@@ -16,6 +16,7 @@ local.properties
 *.apks
 *.aar
 output-metadata.json
+SHA256SUMS.txt
 
 # Signing material
 keystore.properties

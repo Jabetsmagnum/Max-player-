@@ -46,9 +46,9 @@ lecteur plein écran ouvert d’un glissement vers le haut.
 
 ## Captures et identité visuelle
 
-L’icône officielle combine un triangle « play » arrondi avec un dégradé cyan →
-violet sur fond blanc. Elle est utilisée comme icône adaptative, icône ronde,
-icône monochrome Android 13+ et logo d’en-tête dans l’application.
+L’icône officielle est une note de musique blanche sur un cercle dégradé cyan →
+turquoise. Elle est utilisée comme icône adaptative, icône ronde, icône
+monochrome Android 13+ et logo d’en-tête dans l’application.
 
 Le fichier source 512 × 512 est disponible dans [`art/icon-512.png`](art/icon-512.png).
 

@@ -19,7 +19,7 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 - Widget d’écran d’accueil.
 - Thèmes Aurora, Sunset, Ocean, Forest, Candy et Mono.
 - Sauvegarde et restauration locales des playlists et réglages.
-- Nouvelle identité visuelle Max player et icône dégradé cyan → violet.
+- Nouvelle identité visuelle Max player et icône note de musique cyan → turquoise.
 
 ### Confidentialité
 

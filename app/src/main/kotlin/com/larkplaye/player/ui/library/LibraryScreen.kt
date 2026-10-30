@@ -185,19 +185,11 @@ fun LibraryScreen(
         TopAppBar(
             title = {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Box(
-                        modifier = Modifier
-                            .size(40.dp)
-                            .clip(RoundedCornerShape(11.dp))
-                            .background(Color.White),
-                        contentAlignment = Alignment.Center,
-                    ) {
-                        Image(
-                            painter = painterResource(R.drawable.ic_brand_mark),
-                            contentDescription = null,
-                            modifier = Modifier.size(32.dp),
-                        )
-                    }
+                    Image(
+                        painter = painterResource(R.drawable.ic_brand_mark),
+                        contentDescription = null,
+                        modifier = Modifier.size(40.dp),
+                    )
                     Spacer(Modifier.width(10.dp))
                     Column {
                         Text(
