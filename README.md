@@ -188,8 +188,9 @@ app/src/main/kotlin/com/larkplaye/player/
 ## Confidentialité
 
 Max player ne collecte aucune donnée et ne dispose d’aucun service réseau pour
-envoyer la bibliothèque. La politique complète est disponible dans
-[`PRIVACY.md`](PRIVACY.md).
+envoyer la bibliothèque. La sauvegarde cloud Android et la migration automatique
+d’appareil à appareil sont désactivées ; utilisez l’export/import manuel. La
+politique complète est disponible dans [`PRIVACY.md`](PRIVACY.md).
 
 ## Contribuer
 

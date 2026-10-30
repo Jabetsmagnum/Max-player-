@@ -1,6 +1,6 @@
 # Politique de confidentialité — Max player
 
-Dernière mise à jour : 29 octobre 2026
+Dernière mise à jour : 30 octobre 2026
 
 Max player est un lecteur de musique et de vidéos local. L’application ne
 collecte, ne transmet et ne vend aucune donnée personnelle.
@@ -35,6 +35,10 @@ Drive, ni outil d’analyse. L’application ne dispose d’aucun accès réseau
 envoyer vos données.
 
 ## Sauvegarde
+
+La sauvegarde cloud automatique d’Android et la migration automatique
+d’appareil à appareil sont désactivées. Max player ne copie donc ni votre
+bibliothèque ni vos réglages vers un service en ligne.
 
 La fonction d’export crée un fichier JSON à l’emplacement que vous choisissez.
 Vous restez seul responsable de ce fichier et de sa destination.

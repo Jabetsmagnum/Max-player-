@@ -3,7 +3,7 @@
 Toutes les versions notables de Max player sont documentées dans ce fichier.
 Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
-## [1.0.0] — 2026-10-29
+## [1.0.0] — 2026-10-30
 
 ### Ajouté
 
@@ -21,8 +21,13 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 - Sauvegarde et restauration locales des playlists et réglages.
 - Nouvelle identité visuelle Max player et icône dégradé cyan → violet.
 
+### Confidentialité
+
+- Sauvegarde cloud Android et migration automatique d’appareil à appareil
+  désactivées ; seuls l’export et l’import manuels sont disponibles.
+
 ### Technique
 
 - Kotlin 2.0.10, Jetpack Compose, Media3 1.4.1, Room, DataStore, Coil et Palette.
 - R8 et réduction des ressources activés pour les builds release.
-- CI GitHub Actions pour le build, le lint et les tests.
+- CI GitHub Actions pour le build debug/release, le lint et les tests.

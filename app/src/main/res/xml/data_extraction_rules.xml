@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data-extraction-rules>
+    <!-- Max player is local-only: never copy library or settings to the cloud. -->
     <cloud-backup>
-        <include domain="database" path="." />
-        <include domain="sharedpref" path="." />
-        <include domain="file" path="datastore" />
+        <exclude domain="root" path="." />
+        <exclude domain="file" path="." />
+        <exclude domain="database" path="." />
+        <exclude domain="sharedpref" path="." />
+        <exclude domain="external" path="." />
+        <exclude domain="device_root" path="." />
+        <exclude domain="device_file" path="." />
+        <exclude domain="device_database" path="." />
+        <exclude domain="device_sharedpref" path="." />
     </cloud-backup>
+    <!-- Also opt out of automatic device-to-device migration; use the in-app export. -->
     <device-transfer>
-        <include domain="database" path="." />
-        <include domain="sharedpref" path="." />
-        <include domain="file" path="datastore" />
+        <exclude domain="root" path="." />
+        <exclude domain="file" path="." />
+        <exclude domain="database" path="." />
+        <exclude domain="sharedpref" path="." />
+        <exclude domain="external" path="." />
+        <exclude domain="device_root" path="." />
+        <exclude domain="device_file" path="." />
+        <exclude domain="device_database" path="." />
+        <exclude domain="device_sharedpref" path="." />
     </device-transfer>
 </data-extraction-rules>
