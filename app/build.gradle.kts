@@ -83,7 +83,7 @@ ksp {
 }
 
 dependencies {
-    val composeVersion = "1.7.0-rc01"
+    val composeVersion = "1.13.0-beta02"
 
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.appcompat:appcompat:1.7.0")
